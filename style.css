@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("./Imagens/fundo.png");
+  background-repeat: repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.container {
+  background-color: #303030;
+  width: 100%;
+  border-radius: 12px;
+  padding: 24px 53px;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  font-family: "Inria Serif", serif;
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-title {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 32px;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.section-text {
+  font-family: "Inria Serif", serif;
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 38px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.container-tecnologies {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.container-tecnology {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-tecnology {
+  background-color: #fff;
+  width: 183px;
+  height: 183px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tecnology-name {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 2rem;
+}
+
+.tecnology-image {
+  width: 150px;
+  height: 150px;
+}
+
+.flask-image {
+  margin-left: 30px;
+}
+
+.printscreen {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-logos {
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+
+@media (max-width: 770px) {
+  .container-tecnologies {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .container-tecnology {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnology-name {
+    font-size: 26px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+
+  .section-text {
+    font-family: "Inria Serif", serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 20px;
+  }
+}

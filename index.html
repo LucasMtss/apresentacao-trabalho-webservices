@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <title>Trabalho Webservices - Lucas Matos</title>
+</head>
+
+<body>
+  <main>
+    <header class="container">
+      <h1 class="title">Trabalho de Webservice</h1>
+      <h3 class="subtitle">API de notícias com integração com Twitter e análise de sentimento</h3>
+    </header>
+
+    <section class="container">
+      <h2 class="section-title">O Projeto</h2>
+      <p class="section-text">
+        Este projeto tem como objetivo fixar os conhecimentos sobre criação e consumo de APIs de a comunicação entre
+        elas utilizando uma linguagem de interoperabilidade, no caso do projeto, o JSON.
+      </p>
+      <p class="section-text">
+        A ideia do software é criar uma API que irá consumir uma outra API de notícias, e a partir das notícias
+        recebidas pesquisar por tweets relacionados ao assunto e em seguida realizar uma análise de sentimento dos
+        mesmos para entender os usuários estão comentando bem ou mal sobre o assunto.
+      </p>
+      <p class="section-text">
+        O resultado desse processamento é consumido por uma página web e é apresentado para o usuário. As notícias são
+        segmentadas por categorias.
+      </p>
+
+
+      <h2 class="section-title">Tecnologias Utilizadas</h2>
+
+      <ul>
+        <li class="section-text">Para a construção da API foi utilizada a linguagem Python e a biblioteca Flask.</li>
+        <li class="section-text">Para consumo da API foi utilizado React, uma biblioteca de javascript destinada ao
+          frontend.</li>
+      </ul>
+
+      <div class="container-tecnologies">
+        <div class="container-tecnology">
+          <div class="card-tecnology">
+            <img class="tecnology-image" src="./Logos/python.svg" alt="Python">
+          </div>
+          <span class="tecnology-name">Python</span>
+        </div>
+        <div class="container-tecnology">
+          <div class="card-tecnology">
+            <img class="tecnology-image flask-image" src="./Logos/flask.svg" alt="Flask">
+          </div>
+          <span class="tecnology-name">Flask</span>
+        </div>
+        <div class="container-tecnology">
+          <div class="card-tecnology">
+            <img class="tecnology-image" src="./Logos/react.svg" alt="React">
+          </div>
+          <span class="tecnology-name">React</span>
+        </div>
+      </div>
+
+      <h2 class="section-title">Telas do Pojeto</h2>
+
+      <img src="./Imagens/tela-1.png" alt="telas do projeto" class="printscreen">
+      <img src="./Imagens/tela-2.png" alt="telas do projeto" class="printscreen">
+      <img src="./Imagens/tela-3.png" alt="telas do projeto" class="printscreen">
+      <img src="./Imagens/tela-4.png" alt="telas do projeto" class="printscreen">
+      <video autoplay loop src="./Video/apresentacao.mp4" class="printscreen"></video>
+    </section>
+
+    <footer class="container">
+      <p class="section-text">Feito por Lucas Matos, aluno do curso de Sistemas para Internet no IFSEMG Barbacena.</p>
+      <p class="section-text">Professor: Rafael Alencar</p>
+
+      <div class="container-logos">
+        <a href="https://github.com/LucasMtss" target="blank">
+          <img src="./Logos/github.svg" alt="Github" class="logo">
+        </a>
+        <a href="https://www.linkedin.com/in/lucas-matos-92b37a1b2/" target="blank">
+          <img src="./Logos/linkedin.svg" alt="LinkedIn" class="logo">
+        </a>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
